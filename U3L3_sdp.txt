@@ -1,0 +1,9 @@
+What is the base case of the merge sort algorithm? When do we stop digging?
+How does the argument of the merge_sort function move towards the base case?
+What tool(s)/techinque(s) will be most helpful to communicate how to cut the list in half? How will you determine where to cut? How will you actually cut it?
+The whole idea of merge sort is that as it climbs back out of the recursive calls, it will combine two sorted lists into one new sorted list. Why is this approach more efficient that sorting two randomly shuffled lists into one?
+
+1. The base case for the merge sort algorithm is 1
+2. It checks the length of the list of numbers
+3. List slicing is what I will use to cut the list in half, get half of the length to determine where to cut, cut it by split it into two variables
+4. Because the two halves that you are making will already be sorted, so less steps will be necessary to sort the list
